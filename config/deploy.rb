@@ -3,6 +3,10 @@ lock "~> 3.11.0"
 
 set :application, "pawsup_backend"
 set :repo_url, "git@github.com:adamjgordon28/paws-up-backend-1.git"
+
+set :passenger_restart_with_touch, true
+
+
 set :deploy_to, "/home/deploy/pawsup_backend"
 
 append :linked_files, "config/database.yml", "config/secrets.yml"
