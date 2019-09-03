@@ -54,6 +54,9 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
+gem 'ed25519', '~> 1.2', '>= 1.2.4'
+gem 'bcrypt_pbkdf', '~> 1.0', '>= 1.0.1'
+
 gem "jwt", "~> 2.1"
 
 gem "faker", "~> 1.9"
