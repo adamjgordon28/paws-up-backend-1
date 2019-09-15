@@ -1,9 +1,5 @@
 class PetSerializer < ActiveModel::Serializer
-  attributes :id, :name, :sex, :animal, :age, :location, :allergy, :size, :img_url, :meetings, :bleh
-
-  def bleh
-    false
-  end
+  attributes :id, :name, :sex, :animal, :age, :location, :allergy, :size, :img_url, :meetings
 
 
   def meetings
