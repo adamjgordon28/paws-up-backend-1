@@ -2,7 +2,7 @@ class PetSerializer < ActiveModel::Serializer
   attributes :id, :name, :sex, :animal, :age, :location, :allergy, :size, :img_url, :meetings, :bleh
 
   def bleh
-    true
+    false
   end
 
 
